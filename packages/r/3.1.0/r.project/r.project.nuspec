@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>r.project</id>
+    <version>3.1.0</version>
+    <title>The R Project for Statistical Computing</title>
+    <authors>R Core Team</authors>
+    <owners>R Core Team</owners>
+    <licenseUrl>http://www.r-project.org/Licenses/</licenseUrl>
+    <projectUrl>http://www.r-project.org/</projectUrl>
+    <iconUrl>http://cran.cnr.berkeley.edu/Rlogo.jpg</iconUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The R Project for Statistical Computing</description>
+    <summary>R is a system for statistical computation and graphics. It consists of a language plus a 
+    run-time environment with graphics, a debugger, access to certain system functions, and the ability 
+    to run programs stored in script files</summary>
+    <releaseNotes />
+    <copyright>Copyright (C) 1989, 1991-2014 Free Software Foundation, Inc</copyright>
+    <tags>statistics</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
